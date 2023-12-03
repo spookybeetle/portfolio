@@ -3,11 +3,17 @@ import ReactDOM from 'react-dom/client';
 import './css/index.css';
 import Main from './js/Main';
 import reportWebVitals from './reportWebVitals';
+import Header from './js/Header';
+import "./images/AZ.png";
+import AZ from './js/AZ';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Header />
     <Main />
+    <AZ />
   </React.StrictMode>
 );
 
